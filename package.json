@@ -26,7 +26,8 @@
   },
   "scripts": {
     "test": "node ./bin/bin-wrapper.js build -f md ./lib/markdown/simple-markdown-ast.js",
-    "prepublish": "npm run --if-present build"
+    "update-readme": "./bin/bin-wrapper.js readme --section \"Example Output\" ./lib/markdown/simple-markdown-ast.js",
+    "prepublish": "npm run update-readme"
   },
   "keywords": [
     "jsdoc",
