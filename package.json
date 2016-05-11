@@ -11,10 +11,10 @@
   "bugs": {
     "url": "https://github.com/azu/documentation-wrapper/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "documentationjs wrapper commmand line tool.",
   "main": "lib/documentation-wrapper.js",
-  "files":[
+  "files": [
     "lib/",
     "bin/"
   ],
