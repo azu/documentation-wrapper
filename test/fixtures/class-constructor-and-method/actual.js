@@ -10,7 +10,7 @@ class Thing {
     }
 
     /**
-     * @return void
+     * @return noting
      */
     bomb() {
 

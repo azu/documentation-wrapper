@@ -2,8 +2,6 @@
 
 ## `bomb()`
 
-**Returns** - void
-
 ## `constructor(name: string)`
 
 **Parameters**
