@@ -23,7 +23,7 @@ Same with [documentationjs](https://github.com/documentationjs/documentation "do
 
 ### `commentsToAST(comments: Array<Object>, opts: Object, callback: Function): undefined`
 
-Given a hierarchy-nested set of comments, generate an remark-compatible
+Given a hierarchy-nested set of `comments`, generate an remark-compatible
 Abstract Syntax Tree usable for generating Markdown output
 
 **Parameters**
