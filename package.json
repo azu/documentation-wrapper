@@ -14,11 +14,14 @@
   "version": "1.0.0",
   "description": "documentationjs wrapper commmand line tool.",
   "main": "lib/documentation-wrapper.js",
+  "bin": {
+    "documentation-wrapper": "bin/bin-wrapper.js"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/",
+    "test": "node ./bin/bin-wrapper.js build -f md ./lib/markdown/simple-markdown-ast.js",
     "prepublish": "npm run --if-present build"
   },
   "keywords": [
