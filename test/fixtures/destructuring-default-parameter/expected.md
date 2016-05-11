@@ -1,6 +1,7 @@
-# `hello($0: Object)`
+# `hello({ text }): string`
 
 **Parameters**
 
--   `$0: Object`
-    -   `text`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - text is string
+-   `text`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - text is string
+
+**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**

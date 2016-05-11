@@ -1,11 +1,10 @@
 /**
- * Hello function
- * @param {string} text text is string
- * @returns {string} echo text
- * @public
+ * hello with destructuring params
+ * @param {string} name
+ * @param {number} age
  */
-function helloDestructuring({text}) {
-    return text;
+function hello_destructuring({name, age}) {
+
 }
 /**
  *

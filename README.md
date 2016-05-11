@@ -36,12 +36,11 @@ Abstract Syntax Tree usable for generating Markdown output
 
 ### `Person`
 
-#### `constructor($0: Object)`
+#### `constructor({ name })`
 
 **Parameters**
 
--   `$0: Object`
-    -   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - Person name
+-   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - Person name
 
 #### `getName: string`
 
@@ -57,16 +56,14 @@ get person name
 
 **Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - echo text
 
-### `helloDestructuring($0: Object): string`
+### `hello_destructuring({ name, age })`
 
-Hello function
+hello with destructuring params
 
 **Parameters**
 
--   `$0: Object`
-    -   `text`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - text is string
-
-**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - echo text
+-   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
+-   `age`: **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)**
 
 ## Changelog
 
