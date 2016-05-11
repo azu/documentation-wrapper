@@ -4,7 +4,7 @@
 
 ## Why?
 
--   documentationjs not allow to customize output of `-f md`.
+-   documentationjs not allow to customize output of `build -f md` or `readme`.
 -   documentation-wrapper replace documentationjs's internal markdown template with `simple-markdown-ast.js`
 
 ## Install
