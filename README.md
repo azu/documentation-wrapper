@@ -1,16 +1,44 @@
 # documentation-wrapper
 
-documentationjs wrapper commmand line tool.
+[documentationjs](https://github.com/documentationjs/documentation "documentation") wrapper command line tool.
+
+## Why?
+
+- documentationjs not allow to customize output of `-f md`.
+- documentation-wrapper replace documentationjs's internal markdown template with `simple-markdown-ast.js`
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install documentation-wrapper
+    npm install -g documentation-wrapper
 
 ## Usage
 
-- [ ] Write usage instructions
+Same with [documentationjs](https://github.com/documentationjs/documentation "documentation")
+
+    documentation-wrapper build -f md lib/markdown/simple-markdown-ast.js
+
+## Example Output
+
+# commentsToAST(comments: Array&lt;Object>, opts: Object, callback: Function): undefined
+
+**Parameters**
+
+-   `comments` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>**
+-   `opts` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
+-   `callback` **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)**
+
+Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
+
+# generate(depth: number, comment: Object): Object
+
+**Parameters**
+
+-   `depth` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)**
+-   `comment` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
+
+Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
 
 ## Changelog
 

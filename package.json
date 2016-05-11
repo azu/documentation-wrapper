@@ -14,6 +14,10 @@
   "version": "1.0.0",
   "description": "documentationjs wrapper commmand line tool.",
   "main": "lib/documentation-wrapper.js",
+  "files":[
+    "lib/",
+    "bin/"
+  ],
   "bin": {
     "documentation-wrapper": "bin/bin-wrapper.js"
   },
