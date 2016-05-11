@@ -28,11 +28,11 @@ Abstract Syntax Tree usable for generating Markdown output
 
 **Parameters**
 
--   **comments**:`Array<Object>` - nested comment
--   **opts**:`Object` - currently none accepted
--   **callback**:`Function` - called with AST
+-   `comments` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>** nested comment
+-   `opts` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** currently none accepted
+-   `callback` **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** called with AST
 
-**Returns**:`undefined` - calls callback
+Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)** calls callback
 
 ### `generate(depth: number, comment: Object): Object`
 
@@ -41,10 +41,10 @@ split from the main function to handle hierarchially nested comments
 
 **Parameters**
 
--   **depth**:`number` - nesting of the comment, starting at 1
--   **comment**:`Object` - a single comment
+-   `depth` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** nesting of the comment, starting at 1
+-   `comment` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** a single comment
 
-**Returns**:`Object` - remark-compatible AST
+Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** remark-compatible AST
 
 ## Changelog
 
