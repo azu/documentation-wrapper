@@ -32,7 +32,7 @@ Abstract Syntax Tree usable for generating Markdown output
 -   `opts`: **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** - currently none accepted
 -   `callback`: **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** - called with AST
 
-**Returns**: **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
+Returns: **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
 
 ### `Person`
 
@@ -46,7 +46,7 @@ Abstract Syntax Tree usable for generating Markdown output
 
 get person name
 
-**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
+Returns: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
 
 ### `hello(text: string): string`
 
@@ -54,7 +54,7 @@ get person name
 
 -   `text`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
 
-**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - echo text
+Returns: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - echo text
 
 ### `hello_destructuring({ name, age })`
 
