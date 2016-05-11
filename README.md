@@ -34,7 +34,7 @@ Abstract Syntax Tree usable for generating Markdown output
 
 **Returns**: **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
 
-### `Person`
+### `Person()`
 
 #### `constructor({ name })`
 
@@ -42,7 +42,7 @@ Abstract Syntax Tree usable for generating Markdown output
 
 -   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - Person name
 
-#### `getName: string`
+#### `getName(): string`
 
 get person name
 
