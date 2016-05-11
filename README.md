@@ -34,17 +34,36 @@ Abstract Syntax Tree usable for generating Markdown output
 
 **Returns**: **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
 
-### `generate(depth: number, comment: Object): Object`
+### `Person`
 
-Generate an AST chunk for a comment at a given depth: this is
-split from the main function to handle hierarchially nested comments
+#### `constructor({ name })`
 
 **Parameters**
 
--   `depth`: **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** - nesting of the comment, starting at 1
--   `comment`: **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** - a single comment
+-   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - Person name
 
-**Returns**: **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** - remark-compatible AST
+#### `getName: string`
+
+get person name
+
+**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
+
+### `hello(text: string): string`
+
+**Parameters**
+
+-   `text`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
+
+**Returns**: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** - echo text
+
+### `hello_destructuring({ name, age })`
+
+hello with destructuring params
+
+**Parameters**
+
+-   `name`: **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**
+-   `age`: **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)**
 
 ## Changelog
 
