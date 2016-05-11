@@ -1,5 +1,5 @@
 /**
- * @param {string} text
+ * @param {string=} text
  */
 function hello(text){
     
