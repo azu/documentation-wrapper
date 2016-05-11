@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/documentation-wrapper/issues"
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "documentationjs wrapper commmand line tool.",
   "main": "lib/documentation-wrapper.js",
   "files": [
