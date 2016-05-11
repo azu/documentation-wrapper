@@ -21,7 +21,7 @@ Same with [documentationjs](https://github.com/documentationjs/documentation "do
 
 ## Example Output
 
-### commentsToAST(comments: Array&lt;Object>, opts: Object, callback: Function): undefined
+### `commentsToAST(comments: Array<Object>, opts: Object, callback: Function): undefined`
 
 **Parameters**
 
@@ -31,7 +31,7 @@ Same with [documentationjs](https://github.com/documentationjs/documentation "do
 
 Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)** 
 
-### generate(depth: number, comment: Object): Object
+### `generate(depth: number, comment: Object): Object`
 
 **Parameters**
 
@@ -39,25 +39,6 @@ Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 -   `comment` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
 
 Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
-
-# commentsToAST(comments: Array&lt;Object>, opts: Object, callback: Function): undefined
-
-**Parameters**
-
--   `comments` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>**
--   `opts` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
--   `callback` **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)**
-
-Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
-
-# generate(depth: number, comment: Object): Object
-
-**Parameters**
-
--   `depth` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)**
--   `comment` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
-
-Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**
 
 ## Changelog
 

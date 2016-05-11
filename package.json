@@ -50,6 +50,7 @@
     "highlight.js": "^9.3.0",
     "remark": "^4.2.2",
     "remark-toc": "^3.0.0",
+    "unescape-html": "^1.0.0",
     "unist-builder": "^1.0.1"
   }
 }
