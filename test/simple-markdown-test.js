@@ -12,10 +12,10 @@ function trim(str) {
 describe('finds JSDoc', function () {
     const fixturesDir = path.join(__dirname, 'fixtures');
     fs.readdirSync(fixturesDir).map(function (caseName) {
-        it("should " + caseName.split('-').join(' '), function (done) {
+        it(caseName.split('-').join(' '), function (done) {
             var fixtureDir = path.join(fixturesDir, caseName);
             var actualPath = path.join(fixtureDir, 'actual.js');
-            documentation([actualPath], {}, function (error, results) {
+            documentation.build([actualPath], {}, function (error, results) {
                 if (error) {
                     return done(error);
                 }

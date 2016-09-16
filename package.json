@@ -25,7 +25,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node ./bin/bin-wrapper.js build -f md ./lib/markdown/simple-markdown-ast.js",
+    "test:example": "node ./bin/bin-wrapper.js build -f md ./lib/markdown/simple-markdown-ast.js",
+    "test": "mocha && npm run test:example",
     "update-readme": "./bin/bin-wrapper.js readme --access public --access undefined --section \"Example Output\" ./example/example.js",
     "prepublish": "npm run update-readme"
   },
